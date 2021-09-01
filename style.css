@@ -319,11 +319,47 @@ font-size: 18px;
         margin-top: -9vh;
     }
 }
+@media screen and (max-width:400px) {
+.timeline-travel {
+    height: 84%;
+    margin-left: -82vw;
+}
+#plane-img {
+    margin-left: -87vw;
+}
+#Experience>div>div>div {
+    overflow-x: scroll;
+    height: 164px;
+    width: 79vw;
+    margin: 18px 11px;
+    scrollbar-width: none;
+}
+#Experience>div>div>div:nth-child(2n) {
+    left: 0;
+}
+}
 @media screen and (max-width:300px) {
 #header-name h1 {
     font-size: 2rem;
     color: aliceblue;
     margin-top: -17vh;
+}
+.timeline-travel {
+    margin-left: -82vw;
+    height: 84%;
+}
+#plane-img {
+    margin-left: -87vw;
+}
+#Experience>div>div>div {
+    overflow-x: scroll;
+    height: 164px;
+    width: 79vw;
+    margin: 18px 11px;
+    scrollbar-width: none;
+}
+#Experience>div>div>div:nth-child(2n) {
+    left: 0;
 }
 }
 
